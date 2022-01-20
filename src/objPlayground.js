@@ -45,13 +45,13 @@ console.log(calculator(1, 2));
 const arrayGenerator = (type, object) => {
   if (type === 'keys') {
     return Object.keys(object);
-  };
+  }
   if (type === 'values') {
     return Object.values(object);
-  };
+  }
   if (type === 'entries') {
     return Object.entries(object);
-  };
+  }
 };
 
 console.log(arrayGenerator('values', calculator(1, 2)));
