@@ -41,6 +41,6 @@ describe('6 - Implemente os casos de teste para a função `productDetails`', ()
     expect(productDetails('Alcool gel', 'Máscara')[0] !== productDetails('Alcool gel', 'Máscara')[1]).toBe(true);
     // Teste se os dois productIds terminam com 123.
     // https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/String/substring
-    expect(productDetails()[0].details.productId.substring(productDetails()[0].details.productId.length - 3) === "123" && productDetails()[1].details.productId.substring(productDetails()[1].details.productId.length - 3) === "123").toBe(true);
+    expect(productDetails()[0].details.productId.substring(productDetails()[0].details.productId.length - 3) === '123' && productDetails()[1].details.productId.substring(productDetails()[1].details.productId.length - 3) === '123').toBe(true);
   });
 });
